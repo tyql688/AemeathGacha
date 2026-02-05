@@ -1,0 +1,82 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+*.local
+
+# Production build
+target/
+release/
+
+# Rust
+Cargo.lock
+**/*.rs.bk
+
+# Tauri
+gen/
+
+# IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Claude
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Testing
+coverage/
+*.lcov
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Misc
+*.exe
+*.dll
+*.msi
+*.app
+
+# Temp images in root
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
+/*.gif
+/*.bmp
+/*.ico
